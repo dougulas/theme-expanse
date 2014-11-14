@@ -27,16 +27,16 @@ html {
 
 body {
   background: white;
-  color: #e77e23;
-  font: 400 100%/1.5 Montserrat, sans-serif;
+  color: #2ecc71;
+  font: 400 100%/1.5 Raleway, sans-serif;
   margin: 0 auto; }
 
 a {
-  color: #e77e23;
+  color: #2ecc71;
   text-decoration: none; }
   a:hover, a:focus, a:active {
     border: 0;
-    color: #934d10;
+    color: #27ae60;
     transition: color .1s ease-in-out; }
   a:focus {
     outline: thin dotted; }
@@ -57,11 +57,11 @@ li {
   left: 40em; }
 
 .site-title {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   margin: 0 0 1.5rem 0; }
   .site-title:after {
-    background-color: #f6cfac;
+    background-color: #75eaad;
     content: ' ';
     display: block;
     height: 4px;
@@ -74,21 +74,21 @@ li {
 .menu {
   margin-bottom: 1.5rem; }
   .menu a {
-    background-color: rgba(231, 126, 35, 0.8);
+    background-color: rgba(10, 126, 35, 0.7);
     border-radius: 2px;
     color: white;
     display: inline-block;
     padding: 0 .5em;
     transition: background-color .1s ease-in-out; }
     .menu a:hover {
-      background-color: #e77e23; }
+      background-color: #2ecc71; }
   .menu li {
     margin-bottom: 2px; }
 
 .contact li {
   display: inline-block; }
   .contact li:after {
-    color: #f6cfac;
+    color: #73ebb0;
     content: ' ·'; }
   .contact li:last-child:after {
     content: ' '; }
@@ -99,14 +99,14 @@ li {
   padding: 1.5rem; }
 
 .hentry {
-  background-color: #e77e23;
+  background-color: #2ecc71;
   border-radius: 2px;
   cursor: pointer;
   margin: 0 0 1.5rem 0;
   padding: 1.5rem;
   position: relative; }
   .hentry:before {
-    background: #c16515;
+    background: #27ae60;
     border-color: white white transparent transparent;
     border-style: solid;
     border-width: .5rem;
@@ -141,7 +141,7 @@ li {
 .tag {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 2px;
-  color: #e77e23;
+  color: #2ecc71;
   display: inline-block;
   padding: 0 .5em;
   text-decoration: none;
@@ -169,7 +169,7 @@ li {
   max-width: 100%; }
 
 .pagination {
-  color: #f6cfac; }
+  color: #75eaad; }
 
 .next {
   float: right; }
