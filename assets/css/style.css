@@ -55,7 +55,7 @@ li {
   max-width: 20em;
   padding: 3rem 0;
   position: fixed;
-  left: 40em; }
+  left: 45em; }
 
 .site-title {
   font-size: 2rem;
@@ -75,18 +75,20 @@ li {
 .menu {
   margin-bottom: 1.5rem; }
   .menu a {
+    font-weight:600;
     background-color: rgba(10, 126, 35, 0.7);
     border-radius: 2px;
     color: white;
     display: inline-block;
-    padding: 0 .5em;
+    padding: .2em .5em .2em .5em;
     transition: background-color .1s ease-in-out; }
     .menu a:hover {
       background-color: #2ecc71; }
   .menu li {
-    margin-bottom: 2px; }
+    margin-bottom: 3px; }
 
 .contact li {
+  font-weight:600;
   display: inline-block; }
   .contact li:after {
     color: #73ebb0;
@@ -127,7 +129,7 @@ li {
 
 .entry__title {
   color: rgba(255, 255, 255, 0.4);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1rem;
   margin: 0;
   text-align: right;
@@ -140,6 +142,7 @@ li {
   margin-bottom: 1.5rem; }
 
 .tag {
+  font-weight:600;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 2px;
   color: #2ecc71;
@@ -170,10 +173,13 @@ li {
   max-width: 100%; }
 
 .pagination {
+  font-weight:600;
   color: #75eaad; }
 
 .next {
+  font-weight:600;
   float: right; }
 
 .prev {
+  font-weight:600;
   float: left; }
