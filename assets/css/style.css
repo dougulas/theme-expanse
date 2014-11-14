@@ -139,6 +139,7 @@ li {
   transition: color .2s ease-in-out; }
   .entry__title:before {
     color: rgba(255, 255, 255, 0.2);
+    margin-right:5px;
     content: '—'; }
 
 .entry__tags {
