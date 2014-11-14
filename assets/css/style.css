@@ -62,7 +62,7 @@ li {
   font-weight: 700;
   margin: 0 0 1.5rem 0; }
   .site-title:after {
-    background-color: #75eaad;
+    background-color: #2ecc71;
     content: ' ';
     display: block;
     height: 4px;
@@ -89,10 +89,10 @@ li {
     margin-bottom: 3px; }
 
 .contact li {
-  font-weight:600;
+  font-weight:500;
   display: inline-block; }
   .contact li:after {
-    color: #73ebb0;
+    color: #2ecc71;
     content: ' ·'; }
   .contact li:last-child:after {
     content: ' '; }
@@ -180,9 +180,11 @@ li {
   color: #75eaad; }
 
 .next {
-  font-weight:600;
+  color: #95a5a6;
+  font-weight:500;
   float: right; }
 
 .prev {
-  font-weight:600;
+  color: #95a5a6;
+  font-weight:500;
   float: left; }
