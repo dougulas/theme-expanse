@@ -231,14 +231,12 @@ li {
 }
 @media screen and (min-width: 40em) {
   .next {
-    font-size: 30px;
-    font-weight:500;
+    font-size: 25px;
     float: right;
 }
 @media screen and (min-width: 40em) {
   .prev {
-    font-size: 30px;
-    font-weight:500;
+    font-size: 25px;
     float: left;
   }
 }
