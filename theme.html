@@ -73,8 +73,8 @@
                             </article>
                         {% endfor %}
                         <div class="pagination">
-                            <div class="next">{% if pagination.next %}<a href="{{ pagination.next }}">More</a>{% else %}This is the last page.{% endif %}</div>
-                            <div class="prev">{% if pagination.prev %}<a href="{{ pagination.prev }}">Go Back</a>{% else %}This is the first page.{% endif %}</div>
+                            <div class="next">{% if pagination.next %}<a href="{{ pagination.next }}">More</a>{% else %}{% endif %}</div>
+                            <div class="prev">{% if pagination.prev %}<a href="{{ pagination.prev }}">Go Back</a>{% else %}{% endif %}</div>
                         </div>
                     {% else %}
                         <div class="no-posts">No Posts :(</div>
